@@ -1,4 +1,4 @@
-package day1;
+package com.day1;
 
 /*
  Write a program called Fibonacci to display the first 20 Fibonacci numbers F(n), where

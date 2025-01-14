@@ -1,4 +1,4 @@
-package day2;
+package com.day2.Q1;
 
 public class Q1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day2;
+package com.day2.Q1;
 
 public class Q1Employee {
     private int id;
