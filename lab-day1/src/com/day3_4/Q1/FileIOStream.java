@@ -1,4 +1,4 @@
-package com.day3.Q1;
+package com.day3_4.Q1;
 /*
     Download photo of your favourite player and save in some folder in a drive. Now write program to copy each
 character from that file and store into another file using

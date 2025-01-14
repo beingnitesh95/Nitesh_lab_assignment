@@ -1,6 +1,10 @@
-package com.day3.Q2;
-
+package com.day3_4.Q2;
 import java.io.*;
+
+/*
+ Update program 1 using class supporting buffering, calculate and record performance improvement
+achieved using it
+ */
 
 public class Q2 {
 

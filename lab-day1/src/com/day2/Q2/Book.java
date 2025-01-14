@@ -6,32 +6,48 @@ number of copies for each book. The system will allow you to display all books, 
 books and sell books. With sell or order of existing books, number of copies will decrease/increase.
 With order of new book, a new book entry will be added to the system.
  */
-public class Book {
-
+class Book {
     private String bookTitle;
     private String author;
-    private String ISBN;
-    private int numberOfCopies;
-    public Book(String bookTitle, String author, String ISBN, int numberOfCopies){
+    private String isbn;
+    private int numOfCopies;
+
+    public Book(String bookTitle, String author, String isbn, int numOfCopies) {
         this.bookTitle = bookTitle;
-        this.ISBN = ISBN;
-        this.numberOfCopies = numberOfCopies;
+        this.author = author;
+        this.isbn = isbn;
+        this.numOfCopies = numOfCopies;
     }
-    public  String getBookTitle(){
+
+    public String getBookTitle() {
         return bookTitle;
     }
-    public String getAuthor(){
-        return author;
-    }
-    public String getISBN(){
-        return ISBN;
-    }
-    public int getNumberOfCopies() {
-        return numberOfCopies;
+
+    public String getIsbn() {
+        return isbn;
     }
 
-    void display(){
-        System.out.println("bookTitle is: "+bookTitle+ "ISBN is: "+ISBN+ "numberOfCopies is: " + numberOfCopies );
+    public int getNumOfCopies() {
+        return numOfCopies;
     }
 
+
+    public void display() {
+        System.out.println(bookTitle + " - " + author + " - " + isbn + " - " + numOfCopies);
+    }
+
+    // Method to decrease number of copies when a book is sold
+    public void sell(int quantity) {
+        if (quantity <= numOfCopies) {
+            numOfCopies -= quantity;
+        } else {
+            System.out.println("Not enough copies to sell.");
+        }
+    }
+
+    // Method to increase the number of copies when new books are ordered
+    public void order(int quantity) {
+        numOfCopies += quantity;
+    }
 }
+

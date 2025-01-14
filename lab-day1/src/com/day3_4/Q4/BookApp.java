@@ -1,4 +1,4 @@
-package com.day3.Q4;
+package com.day3_4.Q4;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
