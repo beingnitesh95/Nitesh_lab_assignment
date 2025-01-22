@@ -1,0 +1,61 @@
+import java.util.*;
+import java.util.stream.*;
+public class Q1 {
+        public static void main(String[] args) {
+            Map<String, Integer> map = new HashMap<>();
+            map.put("raj", 95);
+            map.put("ekta", 75);
+            map.put("rajiv", 85);
+            map.put("sunita", 66);
+            map.put("gunika", 99);
+
+            System.out.println("------printing map------");
+
+            // 1. Print map using stream
+            map.forEach((key, value) -> System.out.println(key + ": " + value));
+
+            System.out.println("------only records with 'raj' in the key------");
+
+            // 2. Print only records where the key contains "raj"
+            map.entrySet()
+                    .stream()
+                    .filter(entry -> entry.getKey().contains("raj"))
+                    .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+
+            System.out.println("------map sorted by key------");
+
+            // 3. Print map sorted by key
+            map.entrySet()
+                    .stream()
+                    .sorted(Map.Entry.comparingByKey())
+                    .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+
+            System.out.println("------map sorted by value------");
+
+            // 4. Print map sorted by value
+            map.entrySet()
+                    .stream()
+                    .sorted(Map.Entry.comparingByValue())
+                    .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+
+            System.out.println("------map reverse sorted by key------");
+
+            // 5. Print map reverse sorted by key
+            map.entrySet()
+                    .stream()
+                    .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
+                    .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+
+            System.out.println("------map with user-defined key sorting------");
+
+            // 6. Consider key as user-defined key, for example, custom sorting of keys
+            map.entrySet()
+                    .stream()
+                    .sorted((entry1, entry2) -> {
+                        return Integer.compare(entry1.getKey().length(), entry2.getKey().length());
+                    })
+                    .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+        }
+
+
+}
