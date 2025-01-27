@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.springconcept</groupId>
+    <artifactId>set2-labAssignment</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- Spring Context for Dependency Injection and beans configuration -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.23</version>  <!-- Make sure to use the latest stable version -->
+        </dependency>
+
+        <!-- Spring JDBC for Data Access Layer if you're working with databases (optional) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.23</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- Spring ORM for integrating with Hibernate or JPA (optional, only if you use ORM tools) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>5.3.23</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- Spring Web (optional, needed if you're creating a web application with Spring MVC) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.23</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- Spring Web MVC (optional, needed for Spring MVC controllers and view resolvers) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.23</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- Spring AOP (optional, if you're using Aspect Oriented Programming features) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>5.3.23</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- Spring Test (optional, needed for unit testing Spring applications) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.23</version>  <!-- Latest version -->
+            <scope>test</scope>
+        </dependency>
+
+        <!-- SLF4J (Logging facade for Spring) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.32</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- Logback (Logging implementation for SLF4J) -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.6</version>  <!-- Latest version -->
+        </dependency>
+
+        <!-- JUnit for unit testing your code -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>  <!-- Latest version -->
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Maven Compiler Plugin (to specify Java version) -->
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <source>1.8</source> <!-- Change the Java version if required -->
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    </dependencies>
+
+
+</project>
