@@ -1,12 +1,10 @@
-package com.labassignment1.dependencyInjection.service;
+package com.labassignment1.dependencyInjection1UsingXml.service;
 
-import com.labassignment1.dependencyInjection.dao.Employee;
-import com.labassignment1.dependencyInjection.dao.EmployeeDao;
+import com.labassignment1.dependencyInjection1UsingXml.dao.Employee;
+import com.labassignment1.dependencyInjection1UsingXml.dao.EmployeeDao;
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {

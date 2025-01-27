@@ -1,4 +1,4 @@
-package com.labassignment1.dependencyInjection.dao;
+package com.labassignment1.dependencyInjection1UsingXml.dao;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9aafcdbf-9426-480f-8094-ddd40a7f6450" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/java/com/dao/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/java/com/dao/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/java/com/dao/EmployeeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/java/com/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/java/com/service/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/java/com/web/EmployeeApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../labassignmentSpringdi/src/main/resources/test1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/dao/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/dao/EmployeeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/dao/EmployeeDaoImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/dao/EmployeeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/service/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/service/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection/web/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection1UsingXml/dao/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencyInjection1UsingXml/dao/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection1UsingXml/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencyInjection1UsingXml/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection1UsingXml/dao/EmployeeDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencyInjection1UsingXml/dao/EmployeeDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection1UsingXml/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencyInjection1UsingXml/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection1UsingXml/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencyInjection1UsingXml/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependencyInjection1UsingXml/web/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dependencyInjection1UsingXml/web/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../resources/employee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../resources/employee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../test/java/com/labassignment1/dependencyInjection/dao/EmployeeTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2sDonSRw89CUUV3BaFwPND6aPdf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/SE/set2-labAssignment/set2-labAssignment-DI2UsingAnnotation"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aafcdbf-9426-480f-8094-ddd40a7f6450" name="Changes" comment="" />
+      <created>1737999672104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737999672104</updated>
+    </task>
+    <servers />
+  </component>
+</project>

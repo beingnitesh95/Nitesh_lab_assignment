@@ -1,4 +1,4 @@
-package com.labassignment1.dependencyInjection.dao;
+package com.labassignment1.dependencyInjection1UsingXml.dao;
 
 public class Employee {
     private int id;

@@ -1,7 +1,7 @@
-package com.labassignment1.dependencyInjection.web;
+package com.labassignment1.dependencyInjection1UsingXml.web;
 
-import com.labassignment1.dependencyInjection.dao.Employee;
-import com.labassignment1.dependencyInjection.service.EmployeeService;
+import com.labassignment1.dependencyInjection1UsingXml.dao.Employee;
+import com.labassignment1.dependencyInjection1UsingXml.service.EmployeeService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 

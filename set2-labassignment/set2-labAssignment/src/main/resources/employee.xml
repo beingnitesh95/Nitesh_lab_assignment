@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- EmployeeDao Bean -->
+    <bean id="employeeDao" class="com.labassignment1.dependencyInjection1UsingXml.dao.EmployeeDaoImp" />
+
+    <!-- EmployeeService Bean with DI for EmployeeDao -->
+    <bean id="employeeService" class="com.labassignment1.dependencyInjection1UsingXml.service.EmployeeServiceImpl">
+        <property name="dao" ref="employeeDao" />
+    </bean>
+
+</beans>

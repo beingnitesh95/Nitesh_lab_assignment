@@ -1,6 +1,6 @@
-package com.labassignment1.dependencyInjection.service;
+package com.labassignment1.dependencyInjection1UsingXml.service;
 
-import com.labassignment1.dependencyInjection.dao.Employee;
+import com.labassignment1.dependencyInjection1UsingXml.dao.Employee;
 import java.util.List;
 
 public interface EmployeeService {
