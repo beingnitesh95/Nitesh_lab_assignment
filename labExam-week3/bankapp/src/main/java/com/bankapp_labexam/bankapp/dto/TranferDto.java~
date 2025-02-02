@@ -1,0 +1,9 @@
+package com.bankapp_labexam.bankapp.dto;
+
+import java.math.BigDecimal;
+
+public class TranferDto {
+    private int fromAccount;
+    private int toAccount;
+    private BigDecimal amount;
+}
