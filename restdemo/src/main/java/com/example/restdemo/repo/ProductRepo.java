@@ -1,4 +1,9 @@
 package com.example.restdemo.repo;
 
-public class ProductRepo {
+import java.util.List;
+
+public interface ProductRepo {
+    public List<Product> getProduct();
+    public Product getProductById(int id);
+
 }

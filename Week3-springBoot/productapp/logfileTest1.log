@@ -1,0 +1,158 @@
+INFO  | 2025-01-29 14:41:57 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:50) - Starting ProductappApplication using Java 21.0.4 with PID 29860 (C:\SE\Week3-springBoot\productapp\target\classes started by Nitesh.Yadav in C:\SE\Week3-springBoot\productapp)
+INFO  | 2025-01-29 14:41:57 | [main] boot.SpringApplication (SpringApplication.java:660) - The following 1 profile is active: "dev"
+DEBUG | 2025-01-29 14:42:02 | [main] handler.AbstractHandlerMethodMapping (AbstractHandlerMethodMapping.java:366) - 11 mappings in 'requestMappingHandlerMapping'
+DEBUG | 2025-01-29 14:42:02 | [main] handler.SimpleUrlHandlerMapping (SimpleUrlHandlerMapping.java:187) - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+DEBUG | 2025-01-29 14:42:03 | [main] annotation.RequestMappingHandlerAdapter (RequestMappingHandlerAdapter.java:634) - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+DEBUG | 2025-01-29 14:42:03 | [main] annotation.ExceptionHandlerExceptionResolver (ExceptionHandlerExceptionResolver.java:305) - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+INFO  | 2025-01-29 14:42:03 | [main] boot.StartupInfoLogger (StartupInfoLogger.java:56) - Started ProductappApplication in 6.025 seconds (process running for 7.341)
+INFO  | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:532) - Initializing Servlet 'dispatcherServlet'
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.DispatcherServlet (DispatcherServlet.java:533) - Detected StandardServletMultipartResolver
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.DispatcherServlet (DispatcherServlet.java:557) - Detected AcceptHeaderLocaleResolver
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.DispatcherServlet (DispatcherServlet.java:583) - Detected FixedThemeResolver
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.DispatcherServlet (DispatcherServlet.java:733) - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1ac30be4
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.DispatcherServlet (DispatcherServlet.java:797) - Detected org.springframework.web.servlet.support.SessionFlashMapManager@471d6571
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:549) - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+INFO  | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:554) - Completed initialization in 4 ms
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/", parameters={}
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] view.ContentNegotiatingViewResolver (ContentNegotiatingViewResolver.java:354) - Selected 'text/html' given [text/html, text/html;q=0.8]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/favicon.ico", parameters={}
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [{timestamp=Wed Jan 29 14:43:30 IST 2025, status=404, error=Not Found, path=/favicon.ico}]
+DEBUG | 2025-01-29 14:43:30 | [http-nio-8090-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/productapp", parameters={}
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource productapp.]
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] view.ContentNegotiatingViewResolver (ContentNegotiatingViewResolver.java:354) - Selected 'text/html' given [text/html, text/html;q=0.8]
+DEBUG | 2025-01-29 14:43:55 | [http-nio-8090-exec-3] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/", parameters={}
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource .]
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [{timestamp=Wed Jan 29 14:44:50 IST 2025, status=404, error=Not Found, path=/}]
+DEBUG | 2025-01-29 14:44:50 | [http-nio-8090-exec-6] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/productapp", parameters={}
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource productapp.]
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [{timestamp=Wed Jan 29 14:45:18 IST 2025, status=404, error=Not Found, path=/productapp}]
+DEBUG | 2025-01-29 14:45:18 | [http-nio-8090-exec-8] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/product", parameters={}
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource product.]
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [{timestamp=Wed Jan 29 14:45:23 IST 2025, status=404, error=Not Found, path=/product}]
+DEBUG | 2025-01-29 14:45:23 | [http-nio-8090-exec-9] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/productapp", parameters={}
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] resource.ResourceHttpRequestHandler (ResourceHttpRequestHandler.java:585) - Resource not found
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] support.DefaultHandlerExceptionResolver (DefaultHandlerExceptionResolver.java:705) - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource productapp.]
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 404 NOT_FOUND
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - "ERROR" dispatch for GET "/error", parameters={}
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [{timestamp=Wed Jan 29 14:48:38 IST 2025, status=404, error=Not Found, path=/productapp}]
+DEBUG | 2025-01-29 14:48:38 | [http-nio-8090-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:1135) - Exiting from "ERROR" dispatch, status 404
+DEBUG | 2025-01-29 14:49:02 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:49:02 | [http-nio-8090-exec-3] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:49:02 | [http-nio-8090-exec-3] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:49:03 | [http-nio-8090-exec-3] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:49:03 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:49:03 | [http-nio-8090-exec-3] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:50:07 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products/4", parameters={}
+DEBUG | 2025-01-29 14:50:07 | [http-nio-8090-exec-6] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProductById(int)
+DEBUG | 2025-01-29 14:50:07 | [http-nio-8090-exec-6] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:50:07 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [Product(id=4, name=watch, price=1000.00)]
+DEBUG | 2025-01-29 14:50:07 | [http-nio-8090-exec-6] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:50:14 | [http-nio-8090-exec-7] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:50:14 | [http-nio-8090-exec-7] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:50:14 | [http-nio-8090-exec-7] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:50:14 | [http-nio-8090-exec-7] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:50:14 | [http-nio-8090-exec-7] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:50:14 | [http-nio-8090-exec-7] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:50:28 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products/3", parameters={}
+DEBUG | 2025-01-29 14:50:28 | [http-nio-8090-exec-8] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProductById(int)
+DEBUG | 2025-01-29 14:50:28 | [http-nio-8090-exec-8] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:50:28 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [Product(id=3, name=toy, price=500.00)]
+DEBUG | 2025-01-29 14:50:28 | [http-nio-8090-exec-8] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:51:39 | [http-nio-8090-exec-1] log.LogFormatUtils (LogFormatUtils.java:120) - POST "/products", parameters={}
+DEBUG | 2025-01-29 14:51:39 | [http-nio-8090-exec-1] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#addProduct(Product)
+DEBUG | 2025-01-29 14:51:39 | [http-nio-8090-exec-1] log.LogFormatUtils (LogFormatUtils.java:120) - Read "application/json;charset=UTF-8" to [Product(id=10, name=laptopBag, price=50000.00)]
+DEBUG | 2025-01-29 14:51:39 | [http-nio-8090-exec-1] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:51:39 | [http-nio-8090-exec-1] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [Product(id=10, name=laptopBag, price=50000.00)]
+DEBUG | 2025-01-29 14:51:39 | [http-nio-8090-exec-1] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 201 CREATED
+DEBUG | 2025-01-29 14:51:44 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:51:44 | [http-nio-8090-exec-2] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:51:44 | [http-nio-8090-exec-2] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:51:44 | [http-nio-8090-exec-2] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:51:44 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:51:44 | [http-nio-8090-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:52:03 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - POST "/products", parameters={}
+DEBUG | 2025-01-29 14:52:03 | [http-nio-8090-exec-3] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#addProduct(Product)
+DEBUG | 2025-01-29 14:52:03 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - Read "application/json;charset=UTF-8" to [Product(id=0, name=laptopBag, price=50000.00)]
+DEBUG | 2025-01-29 14:52:03 | [http-nio-8090-exec-3] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:52:03 | [http-nio-8090-exec-3] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [Product(id=6, name=laptopBag, price=50000.00)]
+DEBUG | 2025-01-29 14:52:03 | [http-nio-8090-exec-3] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 201 CREATED
+DEBUG | 2025-01-29 14:53:10 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - PUT "/products/6", parameters={}
+DEBUG | 2025-01-29 14:53:10 | [http-nio-8090-exec-6] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#updateProduct(int, Product)
+DEBUG | 2025-01-29 14:53:10 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - Read "application/json;charset=UTF-8" to [Product(id=6, name=laptopBag, price=500.00)]
+DEBUG | 2025-01-29 14:53:10 | [http-nio-8090-exec-6] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:53:10 | [http-nio-8090-exec-6] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [Product(id=6, name=laptopBag, price=500.00)]
+DEBUG | 2025-01-29 14:53:10 | [http-nio-8090-exec-6] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:53:15 | [http-nio-8090-exec-7] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:53:15 | [http-nio-8090-exec-7] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:53:15 | [http-nio-8090-exec-7] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:53:15 | [http-nio-8090-exec-7] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:53:15 | [http-nio-8090-exec-7] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:53:15 | [http-nio-8090-exec-7] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:53:59 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:53:59 | [http-nio-8090-exec-8] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:53:59 | [http-nio-8090-exec-8] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:53:59 | [http-nio-8090-exec-8] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:53:59 | [http-nio-8090-exec-8] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:53:59 | [http-nio-8090-exec-8] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:54:05 | [http-nio-8090-exec-9] log.LogFormatUtils (LogFormatUtils.java:120) - DELETE "/products/6", parameters={}
+DEBUG | 2025-01-29 14:54:05 | [http-nio-8090-exec-9] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#removeProduct(int)
+DEBUG | 2025-01-29 14:54:05 | [http-nio-8090-exec-9] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:54:05 | [http-nio-8090-exec-9] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:305) - Nothing to write: null body
+DEBUG | 2025-01-29 14:54:05 | [http-nio-8090-exec-9] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 204 NO_CONTENT
+DEBUG | 2025-01-29 14:54:45 | [http-nio-8090-exec-10] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:54:45 | [http-nio-8090-exec-10] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:54:45 | [http-nio-8090-exec-10] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:54:45 | [http-nio-8090-exec-10] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:54:45 | [http-nio-8090-exec-10] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:54:45 | [http-nio-8090-exec-10] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK
+DEBUG | 2025-01-29 14:56:30 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - GET "/products", parameters={}
+DEBUG | 2025-01-29 14:56:30 | [http-nio-8090-exec-2] handler.AbstractHandlerMapping (AbstractHandlerMapping.java:531) - Mapped to com.productapp.controller.ProductController#getProducts()
+INFO  | 2025-01-29 14:56:30 | [http-nio-8090-exec-2] service.ProductServiceImpl (ProductServiceImpl.java:25) - **************************************************************
+DEBUG | 2025-01-29 14:56:31 | [http-nio-8090-exec-2] annotation.AbstractMessageConverterMethodProcessor (AbstractMessageConverterMethodProcessor.java:275) - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+DEBUG | 2025-01-29 14:56:31 | [http-nio-8090-exec-2] log.LogFormatUtils (LogFormatUtils.java:120) - Writing [[Product(id=1, name=laptop, price=50000.00), Product(id=2, name=mobile, price=8000.00), Product(id=3 (truncated)...]
+DEBUG | 2025-01-29 14:56:31 | [http-nio-8090-exec-2] servlet.FrameworkServlet (FrameworkServlet.java:1138) - Completed 200 OK

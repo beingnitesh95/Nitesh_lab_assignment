@@ -1,10 +1,7 @@
-package com.example.employeeapp.entities;
+package com.example.employeeapp.repo;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
-import jdk.jfr.Name;
 import lombok.*;
-import org.hibernate.validator.constraints.Range;
 
 @Data
 @AllArgsConstructor

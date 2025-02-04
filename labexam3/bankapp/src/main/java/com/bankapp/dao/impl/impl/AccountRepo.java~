@@ -1,0 +1,10 @@
+package com.bankapp.dao.impl.impl;
+
+
+import com.bankapp.dao.impl.Account;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepo extends JpaRepository<Account, Integer> {
+}

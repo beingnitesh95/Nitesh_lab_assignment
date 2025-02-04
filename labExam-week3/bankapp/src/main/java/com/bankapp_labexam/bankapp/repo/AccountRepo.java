@@ -1,4 +1,9 @@
 package com.bankapp_labexam.bankapp.repo;
 
-public class AccountRepo {
+import com.bankapp_labexam.bankapp.entities.Account;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AccountRepo extends JpaRepository<Account, Integer> {
+
+
 }

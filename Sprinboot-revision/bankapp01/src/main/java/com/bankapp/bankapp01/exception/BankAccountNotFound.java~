@@ -1,0 +1,5 @@
+package com.bankapp.bankapp01.exception;
+
+public class BankAccountNotFound {
+    
+}

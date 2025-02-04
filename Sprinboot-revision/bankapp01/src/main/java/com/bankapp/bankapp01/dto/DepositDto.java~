@@ -1,0 +1,8 @@
+package com.bankapp.bankapp01.dto;
+
+import java.math.BigDecimal;
+
+public class DepositDto {
+    private int accountId;
+    private BigDecimal amount;
+}
