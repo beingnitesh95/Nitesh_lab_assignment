@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: eureka03
+server:
+    port: 8082
+    servlet:
+        context-path: /wservice
+        

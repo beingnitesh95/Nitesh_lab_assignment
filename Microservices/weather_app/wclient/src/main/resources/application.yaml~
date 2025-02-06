@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: wclient
+server:
+    port: 8085
+    servlet:
+        context-path: /wclient

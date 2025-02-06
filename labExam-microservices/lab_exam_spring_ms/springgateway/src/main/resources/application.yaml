@@ -1,0 +1,41 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: springgateway
+
+  cloud:
+    gateway:
+      discovery:
+        enabled: true
+        lowercase-service-id: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8073/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  health:
+    readinessState:
+      enabled: true
+    livenessState:
+      enabled: true
+
+  endpoint:
+    gateway:
+      enabled: true
+    health:
+      probes:
+        enabled: true
