@@ -1,15 +1,13 @@
 server:
-  port: 8086
+    port: 8031
+
 spring:
   application:
-    name: springgateway
-
+    name: gateway
   cloud:
     gateway:
       discovery:
-        locator:
-         enabled: true
-         lowercase-service-id: true
+        enabled: true
 
 eureka:
   instance:
@@ -19,7 +17,16 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8073/eureka/
+      defaultZone: http://localhost:8033/eureka/
+
+resilience4j:
+  circuitbreaker:
+    config:
+      default:
+        sliding-window-size: 10
+          permitted-number-of-calls-in-half-open-state: 2
+          failure-rate-threshold: 50
+          wait-duration-in-open-state: 10s
 
 management:
   tracing:
