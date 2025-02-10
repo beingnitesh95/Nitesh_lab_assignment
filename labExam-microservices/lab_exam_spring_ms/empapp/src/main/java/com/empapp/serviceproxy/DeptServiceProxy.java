@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 //@FeignClient(name="deptapp",url="http://localhost:8083")
-@FeignClient(name="deptapp")
+@FeignClient(name="deptapp", fallback = DeptServiceFallback.class)
 public interface DeptServiceProxy {
 
     @GetMapping("departments/{name}")

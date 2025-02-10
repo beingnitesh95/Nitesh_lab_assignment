@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0421630c-6dc6-41d6-9c85-b89de448d712" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/dao/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/dao/BookstoreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/dao/BookstoreDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/service/BookstoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/test/java/bookapp/service/BookstoreServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labAssignment-day11" beforeDir="false" afterPath="$PROJECT_DIR$/../../labAssignment-day11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/deptapp/src/main/java/com/deptapp/DeptappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/deptapp/src/main/java/com/deptapp/DeptappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/deptapp/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/deptapp/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/java/com/empapp/EmpappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/java/com/empapp/EmpappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/java/com/empapp/serviceproxy/DeptServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/java/com/empapp/serviceproxy/DeptServiceFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/java/com/empapp/serviceproxy/DeptServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/java/com/empapp/serviceproxy/DeptServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/empapp/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/src/main/java/com/example/springgateway/Controller/FallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/src/main/java/com/example/springgateway/Controller/FallbackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/src/main/java/com/example/springgateway/config/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/src/main/java/com/example/springgateway/config/RouteConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labExam-microservices/lab_exam_spring_ms/springgateway/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2sptROwGB9cf1CRS4pYU8cfxRC2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/SE/week5/demoKafka"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0421630c-6dc6-41d6-9c85-b89de448d712" name="Changes" comment="" />
+      <created>1739164334471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739164334471</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+package com.wclient.dto;
+
+public class WeatherInfoDto {
+}

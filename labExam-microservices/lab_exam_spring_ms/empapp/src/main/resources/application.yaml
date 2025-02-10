@@ -1,4 +1,8 @@
 spring:
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
   profiles:
     active: "default"
   application:
@@ -27,13 +31,26 @@ management:
       exposure:
         include: "*"
 
+  health:
+    livenessState:
+      enabled: true
+    readinessState:
+      enabled: true
   endpoint:
-    shutdown:
+    health:
       enabled: true
 
-  info:
-    env:
-      enabled: true
+resiliaence4j:
+  circuitbreaker:
+    configs:
+      default:
+        sliding-window-size: 10
+        permitted-number-of-calls-in-half-open-state: 2
+        automatic-transition-from-open-to-half-open-enabled: true
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+        wait-duration-in-half-open-state: 5s
+
 
 logging:
   pattern:

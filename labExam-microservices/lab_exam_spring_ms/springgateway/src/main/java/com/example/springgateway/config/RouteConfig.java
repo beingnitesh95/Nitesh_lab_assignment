@@ -18,6 +18,8 @@ public class RouteConfig {
                         .filters(f -> f
                                 .rewritePath("/empstore/empsms/(?<segment>.*)", "/${segment}")
                                 .addResponseHeader("X-Response-Time", LocalDateTime.now().toString())
+                                .circuitBreaker(config -> config.setName("mycircuitbreaker")
+                                .setFallbackUri("forward:/contactSupport"))
                         )
                         .uri("lb://EMPAPP")
                 )

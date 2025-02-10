@@ -1,6 +1,5 @@
 server:
   port: 8086
-
 spring:
   application:
     name: springgateway
@@ -8,8 +7,9 @@ spring:
   cloud:
     gateway:
       discovery:
-        enabled: true
-        lowercase-service-id: true
+        locator:
+         enabled: true
+         lowercase-service-id: true
 
 eureka:
   instance:
@@ -22,20 +22,35 @@ eureka:
       defaultZone: http://localhost:8073/eureka/
 
 management:
+  tracing:
+    sampling:
+      probability: 1.0
   endpoints:
     web:
       exposure:
         include: "*"
-
   health:
-    readinessState:
+    readinessstate:
       enabled: true
-    livenessState:
+    livenessstate:
       enabled: true
-
   endpoint:
     gateway:
       enabled: true
     health:
       probes:
         enabled: true
+
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        sliding-window-size: 10
+        permitted-number-of-calls-in-half-open-state: 2
+        automatic-transition-from-open-to-half-open-enabled: true
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+
+logging:
+  pattern:
+    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
