@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: dockertest
+server:
+  port:8080
