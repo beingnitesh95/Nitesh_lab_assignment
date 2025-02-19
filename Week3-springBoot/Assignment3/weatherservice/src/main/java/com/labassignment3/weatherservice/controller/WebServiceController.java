@@ -1,0 +1,4 @@
+package com.labassignment3.weatherservice.controller;
+
+public class WebServiceController {
+}

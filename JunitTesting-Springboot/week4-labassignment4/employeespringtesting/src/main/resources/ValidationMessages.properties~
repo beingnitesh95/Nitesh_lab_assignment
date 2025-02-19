@@ -1,0 +1,5 @@
+employee.name.absent=Please provide product name
+employee.name.invalid=product Name should contain only alphabets and space
+
+employee.price.absent=Please provide product price 
+employee.price.invalid=Please provide correct price bw 10 to 100000
