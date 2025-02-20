@@ -1,0 +1,4 @@
+package com.springconcept.config;
+
+public class SwaggerConfig {
+}

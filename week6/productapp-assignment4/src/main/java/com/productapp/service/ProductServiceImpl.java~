@@ -1,0 +1,68 @@
+package com.productapp.service;
+
+import com.productapp.repo.Product;
+import com.productapp.repo.ProductRepo;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
+
+public class ProductServiceImpl implements productRepo{
+
+    @Autowired
+    private ProductRepository productRepository;
+
+    // Method to get a product by id
+    public Optional<Product> findProductById(String id) {
+        return productRepository.getProductById(id);
+    }
+
+    // Method to get products by qty less than a specified value
+    public List<Product> findProductsByQtyLessThan(Integer qty) {
+        return productRepository.getProductsByQtyLessThan(qty);
+    }
+
+    // Method to get products with qty >= specified value
+    public List<Product> findProductsByQtyGreaterThanEqual(Integer qty) {
+        return productRepository.getProductsByQtyGreaterThanEqual(qty);
+    }
+
+    // Method to get products by vendor
+    public List<Product> findProductsByVendor(String vendor) {
+        return productRepository.getProductsByVendor(vendor);
+    }
+
+    // Method to get products by vendor and cost
+    public List<Product> findProductsByVendorAndCost(String vendor, Double cost) {
+        return productRepository.getProductsByVendorAndCost(vendor, cost);
+    }
+
+    // Method to get products by vendor or name
+    public List<Product> findProductsByVendorOrName(String vendor, String name) {
+        return productRepository.getProductsByVendorOrName(vendor, name);
+    }
+
+    // Method to get count of products by vendor
+    public Integer countProductsByVendor(String vendor) {
+        return productRepository.getProductsCountByVendor(vendor);
+    }
+
+    // Method to get products sorted by name
+    public List<Product> findProductsSortedByName(String vendor) {
+        return productRepository.getProductsByVendorSortByName(vendor);
+    }
+
+    // Method to get products by qty with projection (name & vendor only)
+    public List<Product> findProductNameAndVendorByQty(Integer qty) {
+        return productRepository.getProductNameAndVendorByQty(qty);
+    }
+
+    // Method to get all products by vendor
+    public List<Product> findAllProductsByVendor(String vendor) {
+        return productRepository.getAllProductsByVendor(vendor);
+    }
+
+    // Method to get products by vendor using regex
+    public List<Product> findProductsByVendorRegEx(String vendor) {
+        return productRepository.getProductsByVendorRegEx(vendor);
+    }
+}
