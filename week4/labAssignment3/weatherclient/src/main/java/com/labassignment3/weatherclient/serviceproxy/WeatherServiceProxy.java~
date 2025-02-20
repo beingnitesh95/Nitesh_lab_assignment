@@ -1,0 +1,4 @@
+package com.labassignment3.weatherclient.serviceproxy;
+
+public class WeatherServiceProxy {
+}
