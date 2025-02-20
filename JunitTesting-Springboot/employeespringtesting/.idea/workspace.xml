@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dbbac68-7eec-461d-94f8-9f9e8a5b6024" name="Changes" comment="junit testing jococo">
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/dao/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/dao/BookstoreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/dao/BookstoreDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/java/com/service/BookstoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../labAssignment-day11/assignment11/assignment11/src/test/java/bookapp/service/BookstoreServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/Bankapp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/Bankapp/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/Bankapp/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/Bankapp/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/Bankapp/NotSufficientException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/Bankapp/NotSufficientException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/Bankapp/OverFundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/Bankapp/OverFundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/bikeshowroomapp/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/bikeshowroomapp/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/bikeshowroomapp/BikeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/bikeshowroomapp/BikeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Revision/bikeshowroomapp/InvalidStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Revision/bikeshowroomapp/InvalidStockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherclient/src/main/java/com/labassignment3/weatherclient/dto/WeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherclient/src/main/java/com/labassignment3/weatherclient/dto/WeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherclient/src/main/java/com/labassignment3/weatherclient/weatherproxy/WeatherServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherclient/src/main/java/com/labassignment3/weatherclient/weatherproxy/WeatherServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherservice/src/main/java/com/labassignment3/weatherservice/controller/WebServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherservice/src/main/java/com/labassignment3/weatherservice/controller/WebServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherservice/src/main/java/com/labassignment3/weatherservice/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week3-springBoot/Assignment3/weatherservice/src/main/java/com/labassignment3/weatherservice/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labAssignment-day11" beforeDir="false" afterPath="$PROJECT_DIR$/../../labAssignment-day11" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Maria94Tom&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Maria94Tom/JAVATraining.git&quot;,
+    &quot;accountId&quot;: &quot;6238ff46-f3a5-4c2b-93c6-2964d34bffb8&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2sFrXNTcZC3GwgBCCba4JsvTXal" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EmployeeApplication.executor": "Run",
+    "JUnit.EmployeeAppIntegrationTest.executor": "Run",
+    "JUnit.EmployeeApplicationTests.executor": "Run",
+    "JUnit.EmployeeControllerTest.executor": "Run",
+    "JUnit.EmployeeRepoTest.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.givenEmployee_whenDelete_thenReturnEmployee.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.givenEmployee_whenFindById_thenReturnEmployee.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.givenEmployee_whenSave_thenReturnEmployee.executor": "Run",
+    "Maven.employee [clean].executor": "Run",
+    "Maven.employee [compile].executor": "Run",
+    "Maven.employee [install].executor": "Run",
+    "Maven.employee [package].executor": "Run",
+    "Maven.employee [test].executor": "Run",
+    "Maven.employee [validate].executor": "Run",
+    "Maven.employee [verify].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/SE/week6/labAssignment3/productapp",
+    "settings.editor.selected.configurable": "Lombok"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.employee.controller" />
+      <recent name="com.employee.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeControllerTest">
+    <configuration name="EmployeeAppIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.employee.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.employee.integration" />
+      <option name="MAIN_CLASS_NAME" value="com.employee.integration.EmployeeAppIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.employee" />
+      <option name="MAIN_CLASS_NAME" value="com.employee.EmployeeApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.employee.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.employee.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.employee.controller.EmployeeControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.employee.repo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.employee.repo" />
+      <option name="MAIN_CLASS_NAME" value="com.employee.repo.EmployeeRepoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceImplTest.givenEmployee_whenDelete_thenReturnEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.employee.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.employee.services" />
+      <option name="MAIN_CLASS_NAME" value="com.employee.services.EmployeeServiceImplTest" />
+      <option name="METHOD_NAME" value="givenEmployee_whenDelete_thenReturnEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="employeespringtesting" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="employeespringtesting" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeControllerTest" />
+        <item itemvalue="JUnit.EmployeeAppIntegrationTest" />
+        <item itemvalue="JUnit.EmployeeRepoTest" />
+        <item itemvalue="JUnit.EmployeeApplicationTests" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.givenEmployee_whenDelete_thenReturnEmployee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dbbac68-7eec-461d-94f8-9f9e8a5b6024" name="Changes" comment="" />
+      <created>1738062202533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738062202533</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Assignment 4">
+      <option name="closed" value="true" />
+      <created>1738143594384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738143594384</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Assignment 4">
+      <option name="closed" value="true" />
+      <created>1738161176150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738161176150</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Assignment 5">
+      <option name="closed" value="true" />
+      <created>1738602583409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738602583409</updated>
+    </task>
+    <task id="LOCAL-00004" summary="junit testing jococo">
+      <option name="closed" value="true" />
+      <created>1739876247819</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739876247819</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignment 4" />
+    <MESSAGE value="Assignment 5" />
+    <MESSAGE value="junit testing jococo" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit testing jococo" />
+  </component>
+</project>

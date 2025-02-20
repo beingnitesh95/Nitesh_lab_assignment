@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class OverFundException {
+public class OverFundException extends Exception {
+    public OverFundException(String message) {
+        super(message);
+    }
 }

@@ -1,5 +1,5 @@
-public class InsufficientStockException extends RuntimeException {
-  public InsufficientStockException(String message) {
+public class InvalidStockException extends RuntimeException {
+  public InvalidStockException(String message) {
     super(message);
   }
 }

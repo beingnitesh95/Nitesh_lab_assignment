@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class BankApplication {
+    public static BankAccount bankAccount;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter account number: ");
+        String accountNumber = sc.next();
+        System.out.println("Initial balance: ");
+        double balance = sc.nextDouble();
+
+        bankAccount = new BankAccount(accountNumber, balance);
+        System.out.println("Initial balance: " + bankAccount.getBalance());
+
+
+
+    }
+}

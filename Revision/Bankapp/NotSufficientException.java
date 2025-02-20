@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class NotSufficientException {
+public class NotSufficientException extends Exception {
+    public NotSufficientException(String message){
+        super(message);
+    }
 }

@@ -1,0 +1,4 @@
+package com.labassignment3.weatherclient.controller;
+
+public class WeatherServiceController {
+}

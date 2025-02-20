@@ -1,0 +1,24 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mongodb
+      repositories:
+        enabled: true
+  application:
+    name: productapp
+server:
+  port: 8085
+
+logging:
+  level:
+    org:
+    springframework:
+      data:
+        mongodb:
+          repository:
+            query: debug
+          core:
+            repository:
+              query: debug
